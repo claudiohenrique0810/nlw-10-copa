@@ -40,4 +40,15 @@ document.querySelector("#cards").innerHTML =
       createGame("brazil", "16:00", "cameroon")
       )
   
-
+function switchBackgroundYellow(){
+  document.body.classList.remove('yellow','blue','green');
+   
+}
+function switchBackgroundGreen(){
+  document.body.classList.remove('yellow','blue','green');
+  document.body.classList.add('green');
+}
+function switchBackgroundBlue(){
+  document.body.classList.remove('yellow','blue','green');
+  document.body.classList.add('blue');
+}
