@@ -144,10 +144,10 @@ transition: transform 0.3s;
   padding-bottom: 20px;
 }
 .botao-troca-cor{
-  margin: 5px;
-  width: 5%;
-  height: 5%;
-  border-radius: 20%;
+  overflow: hidden;
+  margin: 10px;
+  width: 40px;
+  border-radius: 50%;
 }
 .botao-troca-cor:hover{
   cursor: pointer;
